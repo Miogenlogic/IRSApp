@@ -1,0 +1,1 @@
+export const BASE_URL = "http://182.73.17.4:5000/v1/api";
