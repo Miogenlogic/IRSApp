@@ -1,0 +1,87 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keys-tore
+!debug.keystore
+!my-upload-key.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Dependencies
+**/**/node_modules
+**/**/npm-debug.log*
+**/**/yarn-error.log*
+**/**/*.log
+**/**/*.tmp
+**/**/*.tmp.*
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/build
+/ios/build
+
+## React Native
+*.jks
+*.p12
+*.key
+*.mobileprovision
+web-build/
+web-report/
+
+## iOS
+ios/Pods
+#ios/**/xcshareddata
+ios/**/xcuserdata
+
+## Android
+android/app/build
+android/.gradle
+android/.idea
+android/local.properties
+android/**/*.iml
+android/build
+android/main.jsbundle
+
+# Testing
+/coverage
+**/**/__snapshots__/
+*.snap
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+**/**/.DS_Store
+**/**/Thumbs.db
+
+# Local Environment Config
+**/**/.env.local
+**/**/.env.development.local
+**/**/.env.test.local
+**/**/.env.production.local
+/ios/main.jsbundle
